@@ -1,0 +1,33 @@
+@import 'src/styles/colors.scss';
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  color: $lightest-slate;
+}
+
+.nav {
+  display: flex;
+  gap: 20;
+}
+
+.nav-link {
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-bottom: none;
+  color: $lightest-slate;
+  transition: color 0.5s ease-in-out;
+
+  &:hover {
+    color: $green;
+  }
+
+  .text-selected {
+    border-bottom: solid;
+    color: $green;
+  }
+}
