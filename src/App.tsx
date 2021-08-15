@@ -1,4 +1,6 @@
 import { Nav } from './components/navigation/Nav'
+import { Experience } from './components/sections/Experience'
+import { Education } from './components/sections/Education'
 
 import './App.scss'
 import data from './linkdin-data.json'
@@ -18,10 +20,15 @@ function App() {
       </section>
       <section id="experiences">
         <h1 className="section-title">Experiences</h1>
-        <p
-          className="home-summary"
-          dangerouslySetInnerHTML={{ __html: data.summary.replace(/\n/g, '<br />') }}
-        />
+        {data.experiences?.map(experience => (
+          <Experience key={experience.id} {...experience} />
+        ))}
+      </section>
+      <section id="education">
+        <h1 className="section-title">Education</h1>
+        {data.education?.map(ele => (
+          <Education key={ele.id} {...ele} />
+        ))}
       </section>
       <div>{/* Footer */}</div>
     </div>

@@ -1,0 +1,16 @@
+@import 'src/styles/colors.scss';
+
+.experience-container {
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 50px 0;
+  border-left: solid 5px $lightest-slate;
+}
+
+.experience-position {
+  color: $green;
+}
+
+.experience-company {
+  font-weight: bold;
+}

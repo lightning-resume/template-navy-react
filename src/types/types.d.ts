@@ -19,8 +19,8 @@ declare namespace Resume {
   }
   interface Education {
     id: string
-    thumbnail: string
-    school: string
+    thumbnail?: string
+    school?: string
     degree?: string
     date?: string
     description?: string
