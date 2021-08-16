@@ -22,38 +22,48 @@ function App() {
           dangerouslySetInnerHTML={{ __html: data.summary.replace(/\n/g, '<br />') }}
         />
       </section>
-      <section id="experiences">
-        <h1 className="section-title">Experiences</h1>
-        {data.experiences?.map(experience => (
-          <Experience key={experience.id} {...experience} />
-        ))}
-      </section>
-      <section id="education">
-        <h1 className="section-title">Education</h1>
-        {data.education?.map(ele => (
-          <Education key={ele.id} {...ele} />
-        ))}
-      </section>
-      <section id="skills">
-        <h1 className="section-title">Skills</h1>
-        <div className="section-skills">
-          {data.skills?.map(ele => (
-            <Skills key={ele} skill={ele} />
+      {data.experiences?.length !== 0 && (
+        <section id="experiences">
+          <h1 className="section-title">Experiences</h1>
+          {data.experiences.map((experience: Resume.Experience) => (
+            <Experience key={experience.id} {...experience} />
           ))}
-        </div>
-      </section>
-      <section id="certifications">
-        <h1 className="section-title">Certifications</h1>
-        {data.licensesAndCertifications?.map(ele => (
-          <Certification key={ele.id} {...ele} />
-        ))}
-      </section>
-      <section id="awards">
-        <h1 className="section-title">Awards</h1>
-        {data.honorsAndAwards?.map(ele => (
-          <Awards key={ele.id} {...ele} />
-        ))}
-      </section>
+        </section>
+      )}
+      {data.education?.length !== 0 && (
+        <section id="education">
+          <h1 className="section-title">Education</h1>
+          {data.education.map((ele: Resume.Education) => (
+            <Education key={ele.id} {...ele} />
+          ))}
+        </section>
+      )}
+      {data.skills?.length !== 0 && (
+        <section id="skills">
+          <h1 className="section-title">Skills</h1>
+          <div className="section-skills">
+            {data.skills.map(ele => (
+              <Skills key={ele} skill={ele} />
+            ))}
+          </div>
+        </section>
+      )}
+      {data.licensesAndCertifications?.length !== 0 && (
+        <section id="certifications">
+          <h1 className="section-title">Certifications</h1>
+          {data.licensesAndCertifications.map((ele: Resume.LicensesAndCertifications) => (
+            <Certification key={ele.id} {...ele} />
+          ))}
+        </section>
+      )}
+      {data.honorsAndAwards?.length !== 0 && (
+        <section id="awards">
+          <h1 className="section-title">Awards</h1>
+          {data.honorsAndAwards.map((ele: Resume.HonorsAndAwards) => (
+            <Awards key={ele.id} {...ele} />
+          ))}
+        </section>
+      )}
       <div>{/* Footer */}</div>
     </div>
   )

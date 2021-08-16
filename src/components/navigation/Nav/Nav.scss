@@ -13,7 +13,17 @@
   gap: 20;
 }
 
+.nav-logo {
+  font-size: 1rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px;
+    border: dotted;
+    border-color: $green;
+}
+
 .nav-link {
+  box-sizing: border-box;
   margin: 0 5px;
   text-decoration: none;
   font-size: 1rem;
@@ -21,9 +31,14 @@
   border-bottom: none;
   color: $lightest-slate;
   transition: color 0.5s ease-in-out;
+  padding-bottom: 10px;
 
   &:hover {
     color: $green;
+  }
+  &.active {
+    color: $green;
+    border-bottom: solid 2px $green;
   }
 
   .text-selected {

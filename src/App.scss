@@ -22,9 +22,11 @@
 }
 
 section {
-  max-width: 1200px;
   padding: 100px 50px 0 50px;
   text-align: left;
+  & p {
+    max-width: 1200px;
+  }
 }
 
 .section-skills {
@@ -51,20 +53,11 @@ section {
 }
 
 .section-title {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (min-width: 600px) {
+  .section-title {
+    font-size: 4rem;
   }
 }
