@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Georama';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Georama Light'), local('Georama-Light'),
+    url('../assets/fonts/Georama.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'),
+    url('../assets/fonts/Ubuntu-Regular.ttf') format('truetype');
+}
