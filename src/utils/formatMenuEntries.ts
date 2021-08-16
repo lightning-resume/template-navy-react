@@ -19,8 +19,9 @@ const mappedNames: MappedNamesTypes = {
 }
 
 export const formatMenuEntries = (menuEntries: MenuEntriesProps): string[] => {
-  const filteredEntries = Object.entries(menuEntries).filter(
-    ([key, value]) => !menuKeysFilterOut.includes(key) || (Array.isArray(value) && value.length === 0),
-  )
+  const filteredEntries = Object.entries(menuEntries).filter(([key, value]) => {
+    if (menuKeysFilterOut.includes(key)) return
+    return Array.isArray(value) ? value.length !== 0 : value
+  })
   return filteredEntries.map(([key]) => mappedNames[key] || key)
 }
