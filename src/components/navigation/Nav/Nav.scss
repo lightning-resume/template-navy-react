@@ -2,6 +2,7 @@
 
 .nav-container{
   display: flex;
+  padding: 0px 50px;
   justify-content: space-between;
   align-items: center;
   height: inherit;
@@ -9,17 +10,58 @@
 }
 
 .nav {
+  display: none;
+}
+
+.nav-banner-lightbox {
+  position: relative;
+  height: calc(100vh - 100px);
+  &.hide {
+    z-index: -1;
+  }
+}
+
+.nav-banner {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 10;
+  height: inherit;
+  background-color: $navy;
+  width: 300px;
+  right: -300px;
+  transition: right 0.3s ease-in-out;
+
+  &.show {
+    right: 0;
+  }
+}
+
+.nav-banner-content {
+  box-sizing: border-box;
   display: flex;
-  gap: 20;
+  padding-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  gap: 15px;
+
+  & .nav-link {
+    padding-bottom: 5px;
+  }
+}
+
+.nav-burger {
+  display: flex;
 }
 
 .nav-logo {
   font-size: 1rem;
-    font-weight: bold;
-    box-sizing: border-box;
-    padding: 10px;
-    border: dotted;
-    border-color: $green;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 10px;
+  border: dotted;
+  border-color: $green;
 }
 
 .nav-link {
@@ -44,5 +86,18 @@
   .text-selected {
     border-bottom: solid;
     color: $green;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+    gap: 20;
+  }
+  .nav-burger {
+    display: none;
+  }
+  .nav-banner-lightbox {
+    display: none;
   }
 }
