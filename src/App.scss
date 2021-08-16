@@ -35,7 +35,6 @@ section {
 }
 
 .App-profile {
-  height: calc(100vh - 100px);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -58,5 +57,9 @@ section {
 @media (min-width: 600px) {
   .section-title {
     font-size: 4rem;
+  }
+
+  .App-profile {
+    height: calc(100vh - 100px);
   }
 }
