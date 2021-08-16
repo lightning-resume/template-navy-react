@@ -3,6 +3,8 @@ import { useRef } from 'react'
 import { Nav } from './components/navigation/Nav'
 import { Experience } from './components/sections/Experience'
 import { Education } from './components/sections/Education'
+import { Certification } from './components/sections/Certification'
+import { Awards } from './components/sections/Awards'
 import { formatMenuEntries } from './utils/formatMenuEntries'
 
 import './App.scss'
@@ -12,6 +14,8 @@ function App() {
   const homeRef = useRef(null)
   const experiencesRef = useRef(null)
   const educationRef = useRef(null)
+  const certificationRef = useRef(null)
+  const awardsRef = useRef(null)
   return (
     <div className="App">
       <header className="App-header">
@@ -34,6 +38,18 @@ function App() {
         <h1 className="section-title">Education</h1>
         {data.education?.map(ele => (
           <Education key={ele.id} {...ele} />
+        ))}
+      </section>
+      <section ref={certificationRef} id="certifications">
+        <h1 className="section-title">Certifications</h1>
+        {data.licensesAndCertifications?.map(ele => (
+          <Certification key={ele.id} {...ele} />
+        ))}
+      </section>
+      <section ref={awardsRef} id="awards">
+        <h1 className="section-title">Awards</h1>
+        {data.honorsAndAwards?.map(ele => (
+          <Awards key={ele.id} {...ele} />
         ))}
       </section>
       <div>{/* Footer */}</div>

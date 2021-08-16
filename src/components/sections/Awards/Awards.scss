@@ -1,0 +1,16 @@
+@import 'src/styles/colors.scss';
+
+.awards-container {
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 50px 0;
+  border-left: solid 5px $lightest-slate;
+}
+
+.awards-title {
+  color: $green;
+}
+
+.awards-issuer {
+  font-weight: bold;
+}

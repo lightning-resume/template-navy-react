@@ -1,0 +1,16 @@
+@import 'src/styles/colors.scss';
+
+.certification-container {
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 50px 0;
+  border-left: solid 5px $lightest-slate;
+}
+
+.certification-name {
+  color: $green;
+}
+
+.certification-company {
+  font-weight: bold;
+}
