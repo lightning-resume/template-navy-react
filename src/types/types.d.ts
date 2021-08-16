@@ -2,10 +2,10 @@
 
 declare namespace Resume {
   interface Profile {
-    name: string;
-    location: string;
-    email?: string;
-    linkedin?: string;
+    name: string
+    location: string
+    email?: string
+    linkedin?: string
   }
   type Summary = string
   type Skills = string[]

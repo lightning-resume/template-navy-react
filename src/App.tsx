@@ -7,7 +7,7 @@ import { Skills } from './components/sections/Skills'
 import { formatMenuEntries } from './utils/formatMenuEntries'
 
 import './App.scss'
-import data from './linkdin-data.json'
+import { default as data } from './linkdin-data.json'
 
 function App() {
   return (
