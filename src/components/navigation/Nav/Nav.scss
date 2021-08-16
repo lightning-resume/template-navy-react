@@ -13,6 +13,10 @@
   display: none;
 }
 
+.nav-banner-container {
+  position: relative;
+}
+
 .nav-banner-lightbox {
   position: relative;
   height: calc(100vh - 100px);
@@ -20,7 +24,7 @@
   transition: background 0.2s ease-in-out;
   &.hide {
     background: unset;
-    z-index: -1;
+    display: none;
   }
 }
 
@@ -28,7 +32,8 @@
   box-sizing: border-box;
   position: absolute;
   z-index: 10;
-  height: inherit;
+  top: 0;
+  height: calc(100vh - 100px);
   background-color: $navy;
   width: 300px;
   right: -300px;

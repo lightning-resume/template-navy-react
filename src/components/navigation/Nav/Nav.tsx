@@ -84,7 +84,11 @@ export const Nav = ({ links, profile }: NavProps) => {
           <Links links={links} hash={hash} handleActive={ev => handleActive(ev, DEVICE_DESKTOP)} />
         </nav>
       </div>
-      <div className={`nav-banner-lightbox ${show}`} onClick={isShown(show) ? handleShowBanner : () => {}}>
+      <div className="nav-banner-container">
+        <div
+          className={`nav-banner-lightbox ${show}`}
+          onClick={isShown(show) ? handleShowBanner : () => {}}
+        />
         <div className={`nav-banner ${show}`}>
           <div className={'nav-banner-content'}>
             <Links links={links} hash={hash} handleActive={handleActive} />
