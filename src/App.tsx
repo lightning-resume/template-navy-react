@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Nav links={formatMenuEntries(data)} logo={data.profile.name} />
+        <Nav links={formatMenuEntries(data)} profile={data.profile} />
       </header>
       <section id="profile" className="App-profile">
         <h1 className="home-title">{data?.profile?.name}</h1>
@@ -64,7 +64,6 @@ function App() {
           ))}
         </section>
       )}
-      <div>{/* Footer */}</div>
     </div>
   )
 }
