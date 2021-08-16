@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/boilerplate-react/static/css/main.809f4f2c.chunk.css",
+    "main.css": "/boilerplate-react/static/css/main.e34aa57a.chunk.css",
     "main.js": "/boilerplate-react/static/js/main.c5c7e41d.chunk.js",
     "main.js.map": "/boilerplate-react/static/js/main.c5c7e41d.chunk.js.map",
     "runtime-main.js": "/boilerplate-react/static/js/runtime-main.a8db6b90.js",
@@ -8,7 +8,7 @@
     "static/js/2.30f3a66a.chunk.js": "/boilerplate-react/static/js/2.30f3a66a.chunk.js",
     "static/js/2.30f3a66a.chunk.js.map": "/boilerplate-react/static/js/2.30f3a66a.chunk.js.map",
     "index.html": "/boilerplate-react/index.html",
-    "static/css/main.809f4f2c.chunk.css.map": "/boilerplate-react/static/css/main.809f4f2c.chunk.css.map",
+    "static/css/main.e34aa57a.chunk.css.map": "/boilerplate-react/static/css/main.e34aa57a.chunk.css.map",
     "static/js/2.30f3a66a.chunk.js.LICENSE.txt": "/boilerplate-react/static/js/2.30f3a66a.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/boilerplate-react/static/media/Ubuntu-Regular.fbdecfce.ttf",
     "static/media/email.917465e9.svg": "/boilerplate-react/static/media/email.917465e9.svg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.a8db6b90.js",
     "static/js/2.30f3a66a.chunk.js",
-    "static/css/main.809f4f2c.chunk.css",
+    "static/css/main.e34aa57a.chunk.css",
     "static/js/main.c5c7e41d.chunk.js"
   ]
 }
