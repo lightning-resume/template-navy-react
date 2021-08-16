@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/boilerplate-react/static/css/main.809f4f2c.chunk.css",
+    "main.js": "/boilerplate-react/static/js/main.cc4b1553.chunk.js",
+    "main.js.map": "/boilerplate-react/static/js/main.cc4b1553.chunk.js.map",
+    "runtime-main.js": "/boilerplate-react/static/js/runtime-main.a8db6b90.js",
+    "runtime-main.js.map": "/boilerplate-react/static/js/runtime-main.a8db6b90.js.map",
+    "static/js/2.30f3a66a.chunk.js": "/boilerplate-react/static/js/2.30f3a66a.chunk.js",
+    "static/js/2.30f3a66a.chunk.js.map": "/boilerplate-react/static/js/2.30f3a66a.chunk.js.map",
+    "index.html": "/boilerplate-react/index.html",
+    "static/css/main.809f4f2c.chunk.css.map": "/boilerplate-react/static/css/main.809f4f2c.chunk.css.map",
+    "static/js/2.30f3a66a.chunk.js.LICENSE.txt": "/boilerplate-react/static/js/2.30f3a66a.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/boilerplate-react/static/media/Ubuntu-Regular.fbdecfce.ttf",
+    "static/media/email.917465e9.svg": "/boilerplate-react/static/media/email.917465e9.svg",
+    "static/media/linkedin.ae971c80.svg": "/boilerplate-react/static/media/linkedin.ae971c80.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8db6b90.js",
+    "static/js/2.30f3a66a.chunk.js",
+    "static/css/main.809f4f2c.chunk.css",
+    "static/js/main.cc4b1553.chunk.js"
+  ]
+}
