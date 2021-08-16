@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "./",
+  "license": "MIT",
+  "author": "Jose Checa & Roman Oxman",
+  "contributors": [
+    "chekuda (https://github.com/chekuda)",
+    "oxmanroman (https://github.com/oxmanroman)"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "5.11.4",
     "@testing-library/react": "11.1.0",
