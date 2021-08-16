@@ -11,14 +11,16 @@
     "@types/node": "16.6.1",
     "@types/react": "17.0.18",
     "@types/react-dom": "17.0.9",
+    "@types/react-helmet": "^6.1.2",
+    "@typescript-eslint/parser": "4.29.1",
+    "linkedin-resume-parser": "0.0.4",
+    "node-sass": "6.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-helmet": "^6.1.0",
     "react-scripts": "4.0.3",
     "typescript": "4.3.5",
-    "web-vitals": "1.0.1",
-    "node-sass": "6.0.1",
-    "linkedin-resume-parser": "0.0.4",
-    "@typescript-eslint/parser": "4.29.1"
+    "web-vitals": "1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -59,7 +61,7 @@
     "eslint-plugin-jest": "24.4.0",
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-react": "7.24.0",
-    "prettier": "2.3.2",
-    "gh-pages": "3.2.3"
+    "gh-pages": "3.2.3",
+    "prettier": "2.3.2"
   }
 }
