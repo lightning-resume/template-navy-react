@@ -5,6 +5,7 @@ import { Experience } from './components/sections/Experience'
 import { Education } from './components/sections/Education'
 import { Certification } from './components/sections/Certification'
 import { Awards } from './components/sections/Awards'
+import { Skills } from './components/sections/Skills'
 import { formatMenuEntries } from './utils/formatMenuEntries'
 
 import './App.scss'
@@ -16,6 +17,7 @@ function App() {
   const educationRef = useRef(null)
   const certificationRef = useRef(null)
   const awardsRef = useRef(null)
+  const skillsRef = useRef(null)
   return (
     <div className="App">
       <header className="App-header">
@@ -39,6 +41,14 @@ function App() {
         {data.education?.map(ele => (
           <Education key={ele.id} {...ele} />
         ))}
+      </section>
+      <section ref={skillsRef} id="skills">
+        <h1 className="section-title">Skills</h1>
+        <div className="section-skills">
+          {data.skills?.map(ele => (
+            <Skills key={ele} skill={ele} />
+          ))}
+        </div>
       </section>
       <section ref={certificationRef} id="certifications">
         <h1 className="section-title">Certifications</h1>

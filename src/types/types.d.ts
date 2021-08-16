@@ -7,8 +7,8 @@ declare namespace Resume {
     email?: string;
     linkedin?: string;
   }
-  type summary = string
-  type skills = string[]
+  type Summary = string
+  type Skills = string[]
   interface Experience {
     id: string
     thumbnail?: string

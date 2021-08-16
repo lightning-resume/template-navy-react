@@ -4,8 +4,8 @@ interface MappedNamesTypes {
 
 type MenuEntriesProps = {
   profile: Resume.Profile
-  summary: Resume.summary
-  skills: Resume.skills
+  summary: Resume.Summary
+  skills: Resume.Skills
   experiences: Resume.Experience[]
   education: Resume.Education[]
   licensesAndCertifications: Resume.LicensesAndCertifications[]
