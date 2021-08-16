@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/boilerplate-react/static/css/main.e34aa57a.chunk.css",
-    "main.js": "/boilerplate-react/static/js/main.c5c7e41d.chunk.js",
-    "main.js.map": "/boilerplate-react/static/js/main.c5c7e41d.chunk.js.map",
-    "runtime-main.js": "/boilerplate-react/static/js/runtime-main.a8db6b90.js",
-    "runtime-main.js.map": "/boilerplate-react/static/js/runtime-main.a8db6b90.js.map",
-    "static/js/2.30f3a66a.chunk.js": "/boilerplate-react/static/js/2.30f3a66a.chunk.js",
-    "static/js/2.30f3a66a.chunk.js.map": "/boilerplate-react/static/js/2.30f3a66a.chunk.js.map",
-    "index.html": "/boilerplate-react/index.html",
-    "static/css/main.e34aa57a.chunk.css.map": "/boilerplate-react/static/css/main.e34aa57a.chunk.css.map",
-    "static/js/2.30f3a66a.chunk.js.LICENSE.txt": "/boilerplate-react/static/js/2.30f3a66a.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/boilerplate-react/static/media/Ubuntu-Regular.fbdecfce.ttf",
-    "static/media/email.917465e9.svg": "/boilerplate-react/static/media/email.917465e9.svg",
-    "static/media/linkedin.ae971c80.svg": "/boilerplate-react/static/media/linkedin.ae971c80.svg"
+    "main.css": "https://resume-site-builder.github.io/boilerplate-react/static/css/main.dac943db.chunk.css",
+    "main.js": "https://resume-site-builder.github.io/boilerplate-react/static/js/main.c5c7e41d.chunk.js",
+    "main.js.map": "https://resume-site-builder.github.io/boilerplate-react/static/js/main.c5c7e41d.chunk.js.map",
+    "runtime-main.js": "https://resume-site-builder.github.io/boilerplate-react/static/js/runtime-main.905074bb.js",
+    "runtime-main.js.map": "https://resume-site-builder.github.io/boilerplate-react/static/js/runtime-main.905074bb.js.map",
+    "static/js/2.30f3a66a.chunk.js": "https://resume-site-builder.github.io/boilerplate-react/static/js/2.30f3a66a.chunk.js",
+    "static/js/2.30f3a66a.chunk.js.map": "https://resume-site-builder.github.io/boilerplate-react/static/js/2.30f3a66a.chunk.js.map",
+    "index.html": "https://resume-site-builder.github.io/boilerplate-react/index.html",
+    "static/css/main.dac943db.chunk.css.map": "https://resume-site-builder.github.io/boilerplate-react/static/css/main.dac943db.chunk.css.map",
+    "static/js/2.30f3a66a.chunk.js.LICENSE.txt": "https://resume-site-builder.github.io/boilerplate-react/static/js/2.30f3a66a.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "https://resume-site-builder.github.io/boilerplate-react/static/media/Ubuntu-Regular.fbdecfce.ttf",
+    "static/media/email.917465e9.svg": "https://resume-site-builder.github.io/boilerplate-react/static/media/email.917465e9.svg",
+    "static/media/linkedin.ae971c80.svg": "https://resume-site-builder.github.io/boilerplate-react/static/media/linkedin.ae971c80.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8db6b90.js",
+    "static/js/runtime-main.905074bb.js",
     "static/js/2.30f3a66a.chunk.js",
-    "static/css/main.e34aa57a.chunk.css",
+    "static/css/main.dac943db.chunk.css",
     "static/js/main.c5c7e41d.chunk.js"
   ]
 }
