@@ -6,7 +6,7 @@ export default {
     linkedin: 'linkedin.com/in/joselcheca',
   },
   summary:
-    'JavaScript developer Specialising in React/Redux creating rich UI APP. Highly driven and experienced professional developer.Whom excels in productive team environments; where I am able tocontribute my wealth of knowledge and leadership;ensuring efficient project completion.Always looking for new challenges, either front or backendto enhance my skills within languages and frameworks in order togrow my technical progression.I am particularly passionate about modern open- source softwaresolutions and how they are transforming our society.',
+    'JavaScript developer Specialising in React/Redux creating rich UI APP.\n\nHighly driven and experienced professional developer\n.Whom excels in productive team environments; where I am able to \ncontribute my wealth of knowledge and leadership;\nensuring efficient project completion.\n\nAlways looking for new challenges, either front or backend\nto enhance my skills within languages and frameworks in order to\ngrow my technical progression.\n\nI am particularly passionate about modern open- source software\nsolutions and how they are transforming our society.',
   experiences: [
     {
       id: '9',
