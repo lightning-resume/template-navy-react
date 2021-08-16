@@ -11,7 +11,7 @@ declare namespace Resume {
   type skills = string[]
   interface Experience {
     id: string
-    thumbnail: string
+    thumbnail?: string
     position: string
     company: string
     date: string
@@ -26,14 +26,17 @@ declare namespace Resume {
     description?: string
   }
   interface LicensesAndCertifications {
+    id: string
     name: string
-    thumbnail: string
-    issuingOrganization: string
-    credentialID: string
+    thumbnail?: string
+    issuedAt?: string
+    issuingOrganization?: string
+    credentialID?: string
+    expiresAt?: string
   }
   interface HonorsAndAwards {
     id: string
-    thumbnail: string
+    thumbnail?: string
     title: string
     issuer?: string
     date?: string

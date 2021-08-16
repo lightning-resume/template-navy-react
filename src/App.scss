@@ -8,6 +8,18 @@
   height: 40vmin;
   pointer-events: none;
 }
+.App-header {
+  height: 100px;
+  box-sizing: border-box;
+  position: fixed;
+  padding: 0px 50px;
+  width: 100%;
+  background-color: $navy;
+}
+
+.App-link {
+  color: #61dafb;
+}
 
 section {
   max-width: 1200px;
@@ -15,11 +27,12 @@ section {
   text-align: left;
 }
 
-.App-home {
+.App-profile {
   height: calc(100vh - 100px);
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-top: 100px;
 }
 
 .home-title {
@@ -39,15 +52,6 @@ section {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  height: 100px;
-  padding: 0px 50px;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
