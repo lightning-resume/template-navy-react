@@ -7,7 +7,7 @@ import { Skills } from './components/sections/Skills'
 import { formatMenuEntries } from './utils/formatMenuEntries'
 
 import './App.scss'
-import data from './tmp/parsed-resume.json'
+import data from './parsed-resume.json'
 
 function App() {
   return (
