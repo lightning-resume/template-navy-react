@@ -36,11 +36,13 @@ const Links = ({
   )
 }
 
+const isShown = (show: string) => show === 'show'
+
 export const Nav = ({ links, logo = 'My CV' }: NavProps) => {
   const [hash, setHash] = useState(window?.location?.hash || links[0])
   const [show, setShow] = useState('hide')
   const handleShowBanner = useCallback(() => {
-    return setShow(show === 'show' ? 'hide' : 'show')
+    return setShow(isShown(show) ? 'hide' : 'show')
   }, [show])
   const handleActive = useCallback(
     (event: MouseEvent) => {
@@ -50,19 +52,19 @@ export const Nav = ({ links, logo = 'My CV' }: NavProps) => {
     },
     [hash, show],
   )
-  useDisableScroll([show === 'show'])
+  useDisableScroll([isShown(show)])
   return (
     <Fragment>
       <div className="nav-container">
         <div className="nav-logo">{capitalizeFirstLetter(logo)[0]}</div>
         <div className="nav-burger">
-          <BurgerMenu isActive={false} onClick={handleShowBanner} />
+          <BurgerMenu isActive={isShown(show)} onClick={handleShowBanner} />
         </div>
         <nav className="nav">
           <Links links={links} hash={hash} handleActive={handleActive} />
         </nav>
       </div>
-      <div className={`nav-banner-lightbox ${show}`} onClick={show === 'show' ? handleShowBanner : () => {}}>
+      <div className={`nav-banner-lightbox ${show}`} onClick={isShown(show) ? handleShowBanner : () => {}}>
         <div className={`nav-banner ${show}`}>
           <div className={'nav-banner-content'}>
             <Links links={links} hash={hash} handleActive={handleActive} />

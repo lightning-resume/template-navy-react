@@ -1,8 +1,26 @@
 @import 'src/styles/colors.scss';
 
+.burger-container {
+  transform: translateZ(0);
+  transition: transform 0.3s ease-in-out;
+  &.active {
+    transform: rotateZ(45deg);
+
+    & .first {
+      transform: translateY(8px);
+    }
+    & .second {
+      transform: rotateZ(90deg);
+    }
+    & .third {
+      opacity: 0;
+    }
+  }
+}
 .burger-line {
   height: 3px;
   width: 20px;
   background-color: $lightest-slate;
   margin: 5px 0;
+  transition: transform 0.2s ease-in-out;
 }

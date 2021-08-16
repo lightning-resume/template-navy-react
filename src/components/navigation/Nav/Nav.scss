@@ -16,7 +16,10 @@
 .nav-banner-lightbox {
   position: relative;
   height: calc(100vh - 100px);
+  background: $bgNavy;
+  transition: background 0.2s ease-in-out;
   &.hide {
+    background: unset;
     z-index: -1;
   }
 }
