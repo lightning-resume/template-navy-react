@@ -30,7 +30,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "PUBLIC_URL='./' react-scripts build",
+    "build": "react-scripts build",
     "build:gh-pages": "dotenv cross-var PUBLIC_URL=%PUBLIC_URL% react-scripts build",
     "predeploy": "yarn build:gh-pages",
     "test": "react-scripts test",
