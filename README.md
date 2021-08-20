@@ -12,8 +12,8 @@ Check the [Demo](https://lightning-resume.github.io/template-navy-react/)
 
 **Web:**
 
-![Demo Web](/public/demo_desktop.png)
+![Demo Web](./public/demo_desktop.png)
 
 **Mobile:**
 
-![Demo Web](/public/demo_mobile.png)
+<img src="./public/demo_mobile.png" width="300" height="500">
