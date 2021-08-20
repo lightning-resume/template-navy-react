@@ -1,89 +1,122 @@
 {
   "profile": {
-    "name": "Jose luis Checa",
-    "location": "London",
+    "name": "Roman Jose CheOx",
+    "location": "Madrid",
     "email": "email@gmail.com",
-    "linkedin": "jose.com/in/jose"
+    "linkedin": "linkedin.com"
   },
-  "summary": "JavaScript developer Specialising in React/Redux creating rich UI APP. Highly driven and experienced professional developer.Whom excels in productive team environments; where I am able tocontribute my wealth of knowledge and leadership;ensuring efficient project completion.Always looking for new challenges, either front or backendto enhance my skills within languages and frameworks in order togrow my technical progression.I am particularly passionate about modern open- source softwaresolutions and how they are transforming our society.",
+  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet enim in ullamcorper sodales. Proin hendrerit dui vitae bibendum blandit. Nullam dictum sagittis purus eu cursus. Integer commodo, velit nec scelerisque venenatis, eros nisi pulvinar tellus, id egestas velit nisi et metus. Nulla mollis aliquet porttitor. Fusce pretium sapien mi, eget rutrum arcu semper a. Nullam dictum placerat justo non eleifend.\n\nVestibulum pulvinar magna eu nunc posuere porta sit amet id purus. Vestibulum ultricies et nibh ac condimentum. Pellentesque sit amet vestibulum libero, quis commodo justo. Sed et semper massa. Donec finibus vehicula nulla sed vulputate. Etiam rhoncus interdum ex, a ullamcorper ipsum ullamcorper vel. Donec eu orci a sem eleifend posuere a nec ante. In laoreet luctus est, nec aliquam orci suscipit rutrum. Morbi faucibus cursus lectus in consectetur.",
   "experiences": [
     {
       "id": "9",
-      "position": "Software Engineer (Remote contract)",
-      "company": "Indeed Flex (Formerly Syft)",
+      "position": "Lorem ipsum dolor sit amet.",
+      "company": "Proin ut",
       "date": "Mar 2020 – Present                (1 yr 6 mos)"
     },
     {
       "id": "8",
-      "position": "Software Engineer",
-      "company": "Syft",
+      "position": "Lorem ipsum dolor sit amet.",
+      "company": "Sed",
       "date": "Sep 2019 – Present                (2 yrs)"
     },
     {
       "id": "7",
-      "position": "React-Redux JavaScript Developer",
-      "company": "Arcadia Group Ltd",
+      "position": "Lorem ipsum dolor sit amet.",
+      "company": "Magna",
       "date": "Jan 2018 – Sep 2019                (1 yr 9 mos)",
-      "description": "- Lead the development of an internal project which focused on allowing brands to create content through a CMS, which in return improved delivery times of new content.\n \n- All these task above helped to improve my Front-End / DevOps skills as all of them has been developed by using React 16, Redux, Redux-thunk, Webpack 4, Git and AWS\n\n- At the same time I am trying to keep improve my skills by creating boilerplates and playing with new technologies which you can see on my github account\n\n- Also I was mentorising people about React and vanilla JS"
+      "description": "Ut in turpis in ipsum scelerisque consectetur. Nulla eget justo sit amet orci sodales eleifend vitae sed erat. Sed sed purus turpis. Mauris porttitor dignissim metus sit amet finibus. Maecenas iaculis fermentum convallis. Vestibulum porttitor tempus nibh ac fringilla. Vestibulum placerat commodo rutrum. Ut vel felis id ante laoreet viverra. Vivamus lectus enim, porttitor non nisl eu, rutrum gravida ante. Proin iaculis nisi id venenatis dignissim."
     },
     {
       "id": "6",
-      "position": "React Javascript Developer",
-      "company": "Arcadia Group Ltd",
+      "position": "Lorem ipsum dolor sit amet.",
+      "company": "Sed",
       "date": "Jul 2017 – Jan 2018                (7 mos)",
-      "description": "- Working within the content team creating new features for Arcadia Brand websites by improving the Content Renderer platform built in React\n\n - Being part of the deployment process for every new feature created using Git, Jenkins and Aws.\n\n- Improve my React skills"
+      "description": "Curabitur at eros elit. Sed at ullamcorper mi. Maecenas eu dui augue. Curabitur eleifend ipsum at metus tempor iaculis. Nam risus nibh, rhoncus vehicula nisi non, malesuada dapibus lorem. Vivamus aliquet lorem tortor, at auctor elit tincidunt et. Cras molestie mollis diam sit amet aliquet. Suspendisse potenti"
     },
     {
       "id": "5",
-      "position": "Javascript Developer",
-      "company": "Ve Global",
+      "position": "Lorem ipsum dolor sit amet.",
+      "company": "Fabitasse",
       "date": "Oct 2016 – Jul 2017                (10 mos)",
-      "description": "Main activities:\n - Maintenance and development of the company's core products - VeCapture and VePanel.\n - Development using ES6 and TypeScript.\n - Using Vanilla JS and browsers' APIs to ensure high performance of applications.\n - Using TDD to give high confidence in quality for critical parts of the code\n - Monitoring of production environment using Application Insights."
+      "description": "Duis eu finibus quam. Curabitur vitae aliquet risus, id egestas lorem.\nPhasellus sit amet nisl mattis, iaculis lectus feugiat, auctor nisi. Quisque at mollis ante, sed vehicula nunc.\nQuisque malesuada diam eu dui dapibus, rhoncus hendrerit elit vestibulum. Mauris finibus, lectus accumsan molestie ornare, nulla arcu commodo enim, sit amet sollicitudin est metus id dolor. Aliquam ac velit sed lacus efficitur aliquet nec vitae dui. Proin auctor quis leo finibus aliquet. Ut nec tellus eget erat malesuada ornare vitae ac sem.\n\nVivamus diam est, pretium at porta in, rhoncus eu enim. Nullam imperdiet eu ante id facilisis.\nFusce malesuada nibh est, ut mattis nibh vestibulum ac. Donec aliquet ut est nec pharetra. Suspendisse suscipit dolor id turpis viverra interdum. Maecenas quis faucibus odio. Phasellus in blandit elit. Fusce est velit, dignissim at mollis et, tristique ac lacus."
     },
     {
       "id": "4",
-      "position": "Junior JavaScript Developer",
-      "company": "Ve Global",
+      "position": "Lorem ipsum dolor sit amet.",
+      "company": "Sed",
       "date": "Feb 2016 – Oct 2016                (9 mos)",
-      "description": "Creating a new and improved version of my last “Sales automation tool” in order to add more features for an easier and more complete web app customer experience. \nFront-End development: \nJavaScript, HTML, CSS, JQuery, Angular and Bootstrap. \nBack-End development: \nNodeJS, ExpressJS, MySql and also developing a REST API.\nProject manager for this and involved in all aspects from workflow to design to testing.\n\nAt the same time I'm the main contact between Hong Kong office and here the head-quarter in London."
+      "description": "Mauris luctus laoreet eleifend. Maecenas non enim faucibus, iaculis lorem ut, rutrum nulla.\nQuisque eget aliquam risus. Etiam semper ullamcorper sodales. Nam purus nisi, aliquet sed interdum ac, malesuada elementum neque."
     },
     {
       "id": "3",
-      "position": "Head of Technical Services",
-      "company": "Ve Global",
+      "position": "Lorem ipsum dolor sit amet.",
+      "company": "Fabitasse",
       "date": "Mar 2015 – Sep 2016                (1 yr 7 mos)",
       "description": "Managing a team of tech from senior to junior level, leading them to increase our output, consisting of; setting up new campaigns, fixing client issues and maintaining clients. \n\nMain contact between our headquarter in London regarding new process and updates.\n\nCreated a “Sales automation tool” to increase sales process and on boarding new clients. Front-End development using: JavaScript, HTML, CSS, PHP, Jquery and JSFrameworks. Project manager for this and involved in all aspects from workflow to design to testing. Used a repositories for a remote coordination work."
     },
     {
       "id": "2",
-      "position": "Technical Team Leader / Senior Technical Support Analyst",
-      "company": "Ve Global",
+      "position": "Lorem ipsum dolor sit amet.",
+      "company": "Donec",
       "date": "Sep 2014 – Jan 2015                (5 mos)",
-      "description": "- Using experience/knowledge from previous role to lead a team of up to 7 Technical Support Analysts, work on email campaigns, the founding technology offering of the company.\n- Managing, delegating and allocating daily work/projects.\n- Training staff and monitoring their performance and progression in my team, as well as assisting in their movement to other teams for their skill expansion and professional growth.\n- Customizing JavaScript"
+      "description": "Donec et sapien finibus, convallis ex vel, varius diam. Integer pulvinar pellentesque velit, id suscipit metus tempus dictum. Donec malesuada nisl orci, sit amet dictum nibh interdum nec.\nNam placerat pharetra dolor in elementum. Curabitur ligula enim, dapibus quis iaculis eu, tempus et eros. Nulla varius non orci at tristique. Aenean vitae nisl diam.\nQuisque risus turpis, ultrices a mauris vitae, tempus semper ipsum. Cras congue dapibus ligula in ornare.\nInteger vel elit eget leo imperdiet placerat."
     },
     {
       "id": "1",
-      "position": "Technical Support Analyst",
-      "company": "Ve Global",
+      "position": "Lorem ipsum dolor sit amet.",
+      "company": "Citec",
       "date": "Jan 2014 – Sep 2014                (9 mos)",
-      "description": "Main activities: \n\n• Creation, changes and corrections of HTML emails \n- creating email campaigns for clients \n(e.g. setting up A/B test campaigns in order to compare the best performing email; CASCADE campaigns – delivery of 2/3 steps emails with different messages and layouts; etc)\n- creating distribution lists\n(when necessary, setting up criteria filters – e.g. sending different emails according to the total basket value, the country, the shipping method, the language, type of product, etc.)\n- according to the campaign chosen by each client, creation of html email templates \n(e.g. Product Feed email, generic email, personalized email – with body or subject line personalized with the customer’s first name)\n- creating emails compatible with Gmail, Outlook and mobile devices\n• Use of Komodo\n• Use of the company’s internal system to upload and delivery email campaigns (VeContact by Ve Interactive)\n• JavaScript configuration \n• JQuery\n• CSS\n• Solving tech issues and problems arising from clients’ campaigns to ensure their best performance\n• Responding to tech questions and queries promptly and efficiently within SLA"
+      "description": "Pellentesque luctus, metus vulputate consequat tincidunt, tortor nulla malesuada orci, sit amet hendrerit lorem odio posuere magna.\nVivamus luctus mi nec semper lacinia. Curabitur ultricies eu odio eu laoreet."
     },
     {
       "id": "0",
-      "position": "Junior Programmer",
-      "company": "CITEC",
+      "position": "Lorem ipsum dolor sit amet.",
+      "company": "Donec",
       "date": "Oct 2012 – Apr 2013                (7 mos)",
-      "description": "Creation of an artificial language to control an IPTV3D3I platform through voice."
+      "description": "Curabitur at eros elit. Sed at ullamcorper mi. Maecenas eu dui augue. Curabitur eleifend ipsum at metus tempor iaculis. Nam risus nibh, rhoncus vehicula nisi non, malesuada dapibus lorem. Vivamus aliquet lorem tortor, at auctor elit tincidunt et. Cras molestie mollis diam sit amet aliquet. Suspendisse potenti. Aenean ut facilisis turpis. Maecenas diam est, porta in tincidunt fringilla, vehicula luctus justo. Aliquam pellentesque non metus vitae hendrerit. Proin in tincidunt diam. Ut vitae purus magna.\n\nFusce vitae quam vel sapien scelerisque blandit. Quisque eu mauris ultricies, consequat magna sed, aliquet ante. Integer eu tellus ac elit ultricies tempor. Proin blandit sit amet augue vitae dignissim.\nInteger posuere feugiat dui vitae scelerisque. Ut accumsan feugiat mi, id egestas libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\nProin varius magna ut diam mattis, a pretium lacus mattis. Vivamus lacinia nibh ut eros accumsan semper.\nSed lobortis velit sed dui eleifend, ac dignissim lorem elementum.\n\nPhasellus porta tortor vel ipsum bibendum sagittis. Aenean maximus magna quis orci accumsan aliquet. Nulla ut eleifend odio."
     }
   ],
   "education": [
     {
       "id": "0",
-      "school": "Universidad de Córdoba",
-      "degree": "Technical Engineering in Computer Science, Gestion"
+      "school": "Donec tincidunt dignissim.",
+      "degree": "Computer Science"
     }
   ],
-  "licensesAndCertifications": [],
+  "licensesAndCertifications": [
+    {
+      "id": "10",
+      "name": "Maecenas porttitor diam turpis",
+      "issuingOrganization": "Turpis",
+      "issuedAt": "Issued Feb 2016"
+    },
+    {
+      "id": "9",
+      "name": "Class aptent taciti sociosqu ad litora",
+      "issuingOrganization": "Sociosqu",
+      "issuedAt": "Issued Aug 2017",
+      "credentialID": "UC-123456"
+    },
+    {
+      "id": "8",
+      "name": "Aliquam at arcu id ante tincidunt iaculis",
+      "issuingOrganization": "Tincidunt",
+      "issuedAt": "Issued Aug 2017",
+      "credentialID": "UC-123456"
+    },
+    {
+      "id": "7",
+      "name": "Nunc tristique nulla at augue feugiat",
+      "issuingOrganization": "Augue",
+      "issuedAt": "Issued Aug 2017"
+    },
+    {
+      "id": "6",
+      "name": "Aenean ut ante eleifend",
+      "issuingOrganization": "Eleifend",
+      "issuedAt": "Issued Nov 2017"
+    }
+  ],
   "skills": [
     "Node.js",
     "JavaScript",
@@ -96,5 +129,18 @@
     "MongoDB",
     "MySQL"
   ],
-  "honorsAndAwards": []
+  "honorsAndAwards": [
+    {
+      "id": "1",
+      "title": "Curabitur posuere sapien convallis odio.",
+      "date": "Nov 2014",
+      "description": "Fusce at odio a libero fermentum porta ac non tortor. Nam aliquet tempus velit id porta. Mauris semper posuere sem nec luctus.\nDonec scelerisque nulla nisl, vel mattis erat suscipit sed. Sed tincidunt imperdiet mauris, tempor tristique ex interdum et. Nullam nec tincidunt mi. Mauris varius non tellus a faucibus."
+    },
+    {
+      "id": "0",
+      "title": "Integer posuere nisl eget elementum.",
+      "issuer": "Morbi et mauris scelerisque",
+      "date": "Aug 2020"
+    }
+  ]
 }
