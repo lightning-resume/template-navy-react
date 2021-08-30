@@ -62,7 +62,7 @@ export const Nav = ({ links, profile }: NavProps) => {
   useDisableScroll([isShown(show)])
   return (
     <Fragment>
-      <div className="nav-container">
+      <div aria-label="navigation-menu" className="nav-container">
         <div className="nav-logo-container">
           <div className="nav-logo">{capitalizeFirstLetter(profile.name)[0]}</div>
           <div className="nav-logo-socials">
