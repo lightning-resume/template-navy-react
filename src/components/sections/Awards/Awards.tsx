@@ -5,8 +5,8 @@ export const Awards = (props: Resume.HonorsAndAwards) => {
   return (
     <div aria-label="award" className="awards-container">
       <h2 className="awards-title">{title}</h2>
-      <p className="awards-issuer">{issuer}</p>
-      <p className="awards-date">{date}</p>
+      {issuer && <p className="awards-issuer">{issuer}</p>}
+      {date && <p className="awards-date">{date}</p>}
       {description && (
         <p
           className="awards-description"
