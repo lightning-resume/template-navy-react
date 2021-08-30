@@ -6,7 +6,7 @@ import data from '../../../parsed-resume.json'
 
 describe('Education', () => {
   const education = data.education[0]
-  fdescribe('degree', () => {
+  describe('degree', () => {
     it('should render the degree if passed', () => {
       const mockedDegree = 'degree mocked'
       render(<Education {...{ ...education, degree: mockedDegree }} />)
@@ -17,7 +17,7 @@ describe('Education', () => {
       expect(container.querySelector('education-degree')).toBeNull()
     })
   })
-  fdescribe('date', () => {
+  describe('date', () => {
     it('should render the date if passed', () => {
       const mockDate = 'Feb 2021'
       render(<Education {...{ ...education, date: mockDate }} />)
@@ -28,13 +28,13 @@ describe('Education', () => {
       expect(container.querySelector('education-date')).toBeNull()
     })
   })
-  fdescribe('school', () => {
+  describe('school', () => {
     it('should render the school if passed', () => {
       render(<Education {...education} />)
       expect(screen.getByText(education.school)).toBeTruthy()
     })
   })
-  fdescribe('description', () => {
+  describe('description', () => {
     it('should render the description if passed', () => {
       const { container } = render(<Education {...{ ...education, description: 'mocked description' }} />)
       expect(container.querySelector('.education-description')).toBeTruthy()
