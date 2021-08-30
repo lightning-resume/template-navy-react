@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BurgerMenu when active should render the component 1`] = `
+<div>
+  <div
+    aria-label="navigation menu"
+    class="burger-container active"
+  >
+    <div
+      class="burger-line first"
+    />
+    <div
+      class="burger-line second"
+    />
+    <div
+      class="burger-line third"
+    />
+  </div>
+</div>
+`;
+
+exports[`BurgerMenu when no active should render the component 1`] = `
+<div>
+  <div
+    aria-label="navigation menu"
+    class="burger-container no-active"
+  >
+    <div
+      class="burger-line first"
+    />
+    <div
+      class="burger-line second"
+    />
+    <div
+      class="burger-line third"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav social links should render email if exist 1`] = `
+<a
+  aria-label="mail to"
+  href="mailto:test@asd.com"
+>
+  <img
+    height="15px"
+    src="email.svg"
+    width="15px"
+  />
+</a>
+`;
+
+exports[`Nav social links should render linkedin if exist 1`] = `
+<a
+  aria-label="linkedin profile"
+  href="https://test@linkedin.com"
+  rel="noreferrer"
+  target="_blank"
+>
+  <img
+    height="15px"
+    src="linkedin.svg"
+    width="15px"
+  />
+</a>
+`;

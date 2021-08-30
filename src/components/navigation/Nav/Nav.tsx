@@ -21,6 +21,7 @@ const Links = ({
     <Fragment>
       {links.map(link => (
         <a
+          aria-label="navigation link"
           key={link}
           className={['nav-link', hash.includes(link) && 'active'].filter(ele => ele).join(' ')}
           href={`#${link}`}
@@ -61,17 +62,22 @@ export const Nav = ({ links, profile }: NavProps) => {
   useDisableScroll([isShown(show)])
   return (
     <Fragment>
-      <div className="nav-container">
+      <div aria-label="navigation-menu" className="nav-container">
         <div className="nav-logo-container">
           <div className="nav-logo">{capitalizeFirstLetter(profile.name)[0]}</div>
           <div className="nav-logo-socials">
             {profile.email && (
-              <a href={`mailto:${profile.email}`}>
+              <a aria-label="mail to" href={`mailto:${profile.email}`}>
                 <img src={emailSVG} height="15px" width="15px" />
               </a>
             )}
             {profile.linkedin && (
-              <a href={`https://${profile.linkedin}`} target={'_blank'} rel="noreferrer">
+              <a
+                aria-label="linkedin profile"
+                href={`https://${profile.linkedin}`}
+                target={'_blank'}
+                rel="noreferrer"
+              >
                 <img src={linkedinSVG} height="15px" width="15px" />
               </a>
             )}
@@ -86,13 +92,14 @@ export const Nav = ({ links, profile }: NavProps) => {
       </div>
       <div className="nav-banner-container">
         <div
+          aria-label={`navigation-lightbox-${show}`}
           className={`nav-banner-lightbox ${show}`}
           onClick={isShown(show) ? handleShowBanner : () => {}}
         />
-        <div className={`nav-banner ${show}`}>
-          <div className={'nav-banner-content'}>
+        <div aria-label={`navigation-banner-${show}`} className={`nav-banner ${show}`}>
+          <nav className="nav-banner-content">
             <Links links={links} hash={hash} handleActive={handleActive} />
-          </div>
+          </nav>
         </div>
       </div>
     </Fragment>
