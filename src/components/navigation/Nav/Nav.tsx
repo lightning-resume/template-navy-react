@@ -1,4 +1,5 @@
 import { useState, MouseEvent, useCallback, Fragment } from 'react'
+import jsxclassnames from 'jsxclassnames'
 import { capitalizeFirstLetter } from 'src/utils/capitalizeLetter'
 import { useDisableScroll } from 'src/utils/hooks/useDisableScrool'
 import { BurgerMenu } from '../BurgerMenu'
@@ -15,6 +16,7 @@ const Links = ({
 }: {
   links: string[]
   hash: string
+  // eslint-disable-next-line no-unused-vars
   handleActive: (event: MouseEvent) => void
 }) => {
   return (
@@ -23,7 +25,7 @@ const Links = ({
         <a
           aria-label="navigation link"
           key={link}
-          className={['nav-link', hash.includes(link) && 'active'].filter(ele => ele).join(' ')}
+          className={jsxclassnames('nav-link', { active: hash.includes(link) })}
           href={`#${link}`}
         >
           <span title={link} onClick={handleActive}>
