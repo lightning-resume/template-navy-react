@@ -32,7 +32,7 @@ jobs:
           node-version: "12.x"
 
       - name: Install dependencies
-        run: yarn --frozen-lockfile
+        run: yarn install
 
       - name: Run tests
         run: yarn test
