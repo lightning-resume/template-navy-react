@@ -17,6 +17,15 @@
 }
 .app-footer {
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: $lightest-slate;
+    font-weight: bold;
+  }
 }
 
 .App-link {
