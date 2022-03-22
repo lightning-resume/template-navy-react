@@ -6,6 +6,7 @@ import { Certification } from './components/sections/Certification'
 import { Awards } from './components/sections/Awards'
 import { Skills } from './components/sections/Skills'
 import { formatMenuEntries } from './utils/formatMenuEntries'
+import { capitalizeFirstLetter } from 'src/utils/capitalizeLetter'
 
 import './App.scss'
 import data from './parsed-resume.json'
@@ -17,6 +18,12 @@ function App() {
         <meta charSet="utf-8" />
         <title>{data?.profile?.name}</title>
         <link rel="canonical" href={process.env.PUBLIC_URL} />
+        <link
+          rel="icon"
+          href={`data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>${
+            capitalizeFirstLetter(data?.profile?.name)[0]
+          }</text></svg>`}
+        ></link>
       </Helmet>
       <div className="App">
         <header className="App-header">
